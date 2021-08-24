@@ -39,7 +39,7 @@ a {
 
 .column {
     float: left;
-    width: 33.33%;
+    width: 32%;
     padding: 0 10px;
 }
 
@@ -60,6 +60,11 @@ a {
     background-color: #f1f1f1;
     color: black;
     border-radius: 2px;
+}
+
+.portfolio-bg {
+    background-color: gray;
+    padding: 50px;
 }
 
 .diagonal-box {
@@ -89,3 +94,9 @@ a {
    /* z-index: 1; */
    /* display: inline-block; */
 }
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
