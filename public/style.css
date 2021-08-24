@@ -1,0 +1,53 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    /* margin-top: 60px; */
+}
+
+body, html {
+    background-color: #000;
+
+}
+
+li {
+    float: right;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    color: #000000 !important;
+    text-decoration: none !important;
+    z-index: 1;
+    position: relative;
+
+}
+
+#navbar {
+    color: #000000 !important
+}
+
+.diagonal-box {
+    position: fixed;
+    top: -94%;
+    left: -10%;
+    width: 150%;
+    height: 150%;
+    background: #ffffff;
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+    z-index: -1;
+}
+.portfolio {
+    z-index: 1;
+}
+
+.content {
+   float: left;
+   z-index: 1;
+   display: inline-block;
+}
